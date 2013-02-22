@@ -2,7 +2,7 @@
 # hilow - a simple number guessing game
 # sh hilow.sh
 
-biggest=100                             # maximum number possible
+biggest=500                             # maximum number possible
 guess=0                                 # guessed by player
 guesses=0                               # number of guesses made
 number=$(( $$ % $biggest ))             # random number, 1 .. $biggest
